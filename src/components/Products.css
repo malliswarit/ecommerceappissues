@@ -1,0 +1,29 @@
+.products {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(237, 236, 236);
+}
+
+.section-card {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    top: 20px;
+    bottom: 20px;
+    left: 10px;
+    right: 20px;
+    height: 15rem;
+}
+
+.section-card {
+    width: 15rem;
+    height: 15rem;
+}
+
+.section-card img {
+    background-image:  url("https://rukminim1.flixcart.com/fk-p-flap/278/278/image/fb57b447c8eefb65.jpg?q=90");
+    background-position: 0px bottom;
+}
